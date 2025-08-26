@@ -1,3 +1,4 @@
+import nike from "../assets/image.png"
 const Nav=()=>{
 
 return <>
@@ -5,7 +6,7 @@ return <>
 
 <nav>
   <div className="logo">
- <img className="nike" src="../image.png " alt="Nile logo"/>
+ <img className="nike" src={nike} alt="Nile logo"/>
   </div>
   <ul>
     <li href="#">Menu</li>
